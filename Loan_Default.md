@@ -21,7 +21,7 @@ Loan delinquency and loan default are becoming a growing problem for the banking
 
 
 ```python
-#![](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.png)
+![](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.png)
 path= "https://drive.google.com/drive/folders/1f2m1fB5Y8bC2ddfIvjyXHWBdMs8KII5R"
 os.chdir(path)
 from PIL import Image
