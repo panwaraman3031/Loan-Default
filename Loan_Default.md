@@ -19,10 +19,11 @@ Loan delinquency and loan default are becoming a growing problem for the banking
 *Correlation studies was also performed between some of the variables in final dataset to check if there existed any significant relation between those variables as this may help with selection of variables for machine learning model.
 
 
+![](flowchart.jpg)
 
 ```python
 ![](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.jpg)
-path= "https://drive.google.com/drive/folders/1f2m1fB5Y8bC2ddfIvjyXHWBdMs8KII5R"
+#path= "https://drive.google.com/drive/folders/1f2m1fB5Y8bC2ddfIvjyXHWBdMs8KII5R"
 os.chdir(path)
 from PIL import Image
 flowchart = Image.open("flowchart.jpg");
