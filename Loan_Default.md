@@ -21,7 +21,7 @@ Loan delinquency and loan default are becoming a growing problem for the banking
 
 
 ```python
-#![flowchart](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.png)
+![flowchart](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.png)
 ```
 
 This flow chart explains the life cycle of our project from gathering data to visualizing the data. 
