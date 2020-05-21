@@ -12,23 +12,15 @@
 
 Loan delinquency and loan default are becoming a growing problem for the banking and other financial institutions. Failure to recover loans on time puts these loan lending institutions at financial loss. This eventually makes it difficult for people who genuinely need loan but never had any banking history. While it is very difficult to accurately claim who will pay back the loan, it is possible to estimate the probability of person paying back the loan. To help answer this question, we obtained data posted by Home Credit on Kaggle. Home credit, a non-bank financial institution, focuses primarily on lending loans to people with little or no credit history.
 
-*The main objective of this project is to prepare a dataset that has necessary variables to predict how likely a person would repay a loan. 
+*The main objective of this project is to prepare a dataset that has necessary variables to predict how likely a person would repay a loan.*
 
-*The results from this study can also be used to identify the factors that are common to people who faced a difficulty in paying back the loan. 
+*The results from this study can also be used to identify the factors that are common to people who faced a difficulty in paying back the loan.*
 
-*Correlation studies was also performed between some of the variables in final dataset to check if there existed any significant relation between those variables as this may help with selection of variables for machine learning model.
+*Correlation studies was also performed between some of the variables in final dataset to check if there existed any significant relation between those variables as this may help with selection of variables for machine learning model.*
 
 
 ![](flowchart.jpg)
 
-```python
-![](https://github.com/panwaraman3031/Loan-Default/blob/master/flowchart.jpg)
-#path= "https://drive.google.com/drive/folders/1f2m1fB5Y8bC2ddfIvjyXHWBdMs8KII5R"
-os.chdir(path)
-from PIL import Image
-flowchart = Image.open("flowchart.jpg");
-flowchart.show();
-```
 
 This flow chart explains the life cycle of our project from gathering data to visualizing the data. 
 
@@ -1175,10 +1167,8 @@ dft_70.head()
 Tableau was used to visualize categorical and continuous variables in our dataset.
 
 
+![](occupation.png)
 
-```python
-#![occupation](https://github.com/panwaraman3031/Loan-Default/blob/master/occupation.png)
-```
 
 **Interpretation of the plot:**
 
@@ -1186,26 +1176,26 @@ Tableau was used to visualize categorical and continuous variables in our datase
 “Unknown” occupation type refers to all the people who had missing values in their occupation type column. We believe that laborers are unskilled people who do manual work for wages and therefore have difficultes paying back the loan.
 
 
-```python
-#![organization](https://github.com/panwaraman3031/Loan-Default/blob/master/organization.png)
-```
+
+![](organization.png)
+
 
 **Interpretation of the plot:**
 
 Among all the people who had difficulty paying back the loan, people belonging to business organization type comprised a major portion because there is relatively more uncertainty involved with the outcome of a business and thus this category of people may find it hard to pay loan on time.
 
 
-```python
-#![education](https://github.com/panwaraman3031/Loan-Default/blob/master/education.png)
-```
+
+![education](education.png)
+
 
 **Interpretation of the plot:**
 Proportion of people by education type shows that people with secondary education had most difficulty paying back the loan.
 
 
-```python
-#![income](https://github.com/panwaraman3031/Loan-Default/blob/master/income.png)
-```
+
+![](income.png)
+
 
 **Interpretation of the plot:**
 People with lower income were more likely to default the payment of loan as compared to higher income group.
@@ -1235,9 +1225,9 @@ so[15:25:2]
 
 
 
-```python
-#![correlation](https://github.com/panwaraman3031/Loan-Default/blob/master/correlation.png)
-```
+
+![](correlation.png)
+
 
 *Based on the correlation matrix, “Amt Credit” and “Amt Goods Price” are strongly correlated and one of these variable can be removed to make our dataset more compact.*
 
