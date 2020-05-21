@@ -1,8 +1,6 @@
 
 
-```python
 
-```
 
                                                 ** RISK OF LOAN DEFAULT **
 
