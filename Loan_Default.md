@@ -14,7 +14,7 @@ Loan delinquency and loan default are becoming a growing problem for the banking
 
 *The results from this study can also be used to identify the factors that are common to people who faced a difficulty in paying back the loan.*
 
-*Correlation studies was also performed between some of the variables in final dataset to check if there existed any significant relation between those variables as this may help with selection of variables for machine learning model.*
+*Correlation studies was also performed between some of the variables in final dataset to check if there existed any significant relation between those variables.*
 
 
 ![](flowchart.jpg)
